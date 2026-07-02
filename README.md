@@ -83,7 +83,7 @@ curl -X POST http://localhost:8080/libros \
   -H "Content-Type: application/json" \
   -d '{
     "titulo": "Clean Code",
-    "autor": "Robert C. Martin",
+    "autor": "Robert Martin",
     "editorial": "Prentice Hall",
     "anioPublicacion": 2008,
     "disponible": true
@@ -133,7 +133,7 @@ curl -X DELETE http://localhost:8080/libros/1
 {
   "id": 1,
   "titulo": "Clean Code",
-  "autor": "Robert C. Martin",
+  "autor": "Robert Martin",
   "editorial": "Prentice Hall",
   "anioPublicacion": 2008,
   "disponible": true
